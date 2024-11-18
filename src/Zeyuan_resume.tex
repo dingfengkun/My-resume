@@ -1,0 +1,104 @@
+\documentclass{ExpressiveResume}
+\usepackage{bookmark} % For handling bookmarks efficiently
+
+% ----- Resume -----
+\begin{document}
+
+% ----- Name + Contact Information -----
+\resumeheader[
+    firstname=Zeyuan,
+    lastname=Ding,
+    email=zd2466@nyu.edu,
+    phone=551-362-7194,
+    linkedin=zeyuan0123,
+    github=dingfengkun,
+    city=Jersey City,
+    state=NJ
+]
+
+\intro{
+    Intellectually curious Master's student with 3+ years of academic experience in Algorithms and machine learning. Passionate about pursuing roles in Data Science or Machine Learning Engineering, with a focus on leveraging machine learning and causal inference to solve complex business challenges. In my free time, I enjoy playing table tennis.
+}
+% ----- Education -----
+\section{Education}
+
+\experience{Master of Science}{Data Science}{Sep 2024}{May 2026}{
+    \noindent New York University, Center for Data Science \newline
+    \begin{tabular}{l l l}
+        Big Data & Mathematical Statistics & Data Programming \\
+        Causal Inference & Linear Algebra and Optimization & Probability and Statistics for Data Science \\
+    \end{tabular}
+}
+
+\experience{Bachelor of Advanced Computing (Honours)}{Computer Science}{July 2020}{June 2024}{
+    \noindent University of Sydney, Faculty of Engineering \hfill GPA: 3.9/4.0 \newline
+    \begin{tabular}{l l l}
+        Artificial Intelligence (ML and DL) & Data Structures and Algorithms & Computational Geometry \\
+        Software Engineering & Linear Algebra & Probability and Statistics \\
+    \end{tabular}
+}
+
+% ----- Work Experience -----
+\section{Work Experience}
+
+\experience{Research Assistant}{Shanghai Qi Zhi Institute}{Aug 2021}{March 2022}{
+    \achievement{
+        Researched neural network (NN) compression and design space exploration for FPGA-based NN accelerators.
+    }
+    \achievement{
+        Conducted simulation experiments, testing, and partial Chisel code implementation under Prof. Li Jiang at SJTU.
+    }
+}
+
+\experience{Research Assistant}{Shanghai Jiao Tong University (Remote)}{Nov 2022}{Feb 2023}{
+    \achievement{
+        Assisted in improving the robustness and efficiency of Spiking Neural Networks (SNN) with attacking algorithms in ML and DL.
+    }
+    \achievement{
+        Worked under the guidance of Profs. Fangxin Liu and Li Jiang in the Advanced Computer Architecture Lab.
+    }
+}
+
+\experience{Honours Research Student}{University of Sydney}{July 2023}{June 2023}{
+    \achievement{
+        Developed a novel local routing algorithm for the $\theta_5$-graph with bounded path length under Prof. André Van Renssen.
+    }
+    \achievement{
+        Designed and implemented a verification platform in JavaScript for algorithm accuracy; achieved distinction for the thesis.
+    }
+}
+
+% ----- Technical Projects -----
+\section{Technical Projects}
+
+\experience{Bush Fire Risk Analysis}{Team Project}{Spring 2021}{Spring 2021}{
+    \achievement{
+        Built a bushfire risk analysis system using PostgreSQL, PostGIS, and Python with data from Australian government sources.
+    }
+    \achievement{
+        Developed custom risk scoring algorithms considering population density, land use, and demographics.
+    }
+    \achievement{
+        Visualized risk distribution with choropleth maps for New South Wales.
+    }
+}
+
+\experience{3D File Conversion Engine}{Individual Project}{Fall 2022}{Fall 2022}{
+    \achievement{
+        Designed a high-performance 3D file conversion engine for the USYD TechLab, improving efficiency by 60\%.
+    }
+    \achievement{
+        Built the AWS-based platform using Docker, ImageJ, and Python multiprocessing.
+    }
+}
+
+% ----- Activities -----
+\section{Activities}
+
+\experience{Academic Paper Co-Author}{}{2023}{2023}{
+    \achievement{
+        Co-authored \textit{"Classroom AR Integration"}, published in \textit{Advances in Social Science and Culture}, Volume 5, No. 4.
+    }
+}
+
+\end{document}
